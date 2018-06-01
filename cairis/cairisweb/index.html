@@ -1,0 +1,85 @@
+---
+layout: page
+discription : Latest post from CAIRIS
+--- 
+
+<!-- <h1 class="post-title">Introducing the CAIRIS web app</h1> -->
+  <span class="post-date">11 Aug 2016</span>
+  <h2 id="introducing-the-cairis-web-app">Introducing the CAIRIS web app</h2>
+
+<p>We’re pleased to announce the first alpha release of the CAIRIS web app.</p>
+
+<p>The web app started life as a project by <a href="https://github.com/RobinQuetin">Robin Quetin</a> and <a href="http://www.rafvandelaer.be/">Raf Vandelaer</a> when they both visited BU last year.  Development on the app then lay dormant for several months while the rest of the CAIRIS code base was refactored.  Fortunately, with the help of <a href="https://github.com/invalidtoken">Waldemar Woch</a> and <a href="https://github.com/RachelLar">Rachel Larcombe</a> in recent months, the web app has been integrated into CAIRIS, and is starting to become more and more functional.</p>
+
+<p>In building the CAIRIS web app, we had three design goals.</p>
+
+<h3 id="opening-cairis-for-all-platforms">1. Opening CAIRIS for all platforms</h3>
+
+<p>People seem excited about CAIRIS, but less excited about using a GUI on a Linux/Gnome desktop.  With this in mind, a CAIRIS web app provides the convenience of using the tool on a PC or a Mac without the overhead of porting all the front-end code to a specific native platform.  As the screenshots below illustrate, much of the analytical processing and visual model generation still takes place on the back-end, so the look and feel of the tool is largely unchanged.</p>
+
+<p><img src="/images/NGRiskModel.jpg" alt="fig:riskmodel" title="Risk model" style="width:100%;height:100%;"/></p>
+
+<p><img src="/images/NGReqs.jpg" alt="fig:riskmodel" title="Requirements management" style="width:100%;height:100%;"/></p>
+
+<h3 id="opening-cairis-for-other-apps-and-services">2. Opening CAIRIS for other apps and services</h3>
+
+<p>We wanted to develop an API that people could use for leveraging CAIRIS’ analytical capabilities without using the desktop GUI.  When CAIRIS was used on the <a href="http://webinos.org">webinos project</a>, many of the requirements and architectural design models were created and generated without using the GUI at all, and <a href="https://github.com/webinos/webinos-design-data">scripts were used to import data into CAIRIS for processing, and export data from CAIRIS into various formats</a>.  By interacting with the CAIRIS database exclusively through the web services, the CAIRIS web app has become a design tool that uses the CAIRIS API.  </p>
+
+<h3> 3. Evolving CAIRIS into multiple apps </h3>
+
+<p>In the long term, we wish to evolve CAIRIS into multiple apps.  CAIRIS was initially designed as a requirements management tool which also managed security and UX design data.  In recent years, CAIRIS has evolved so much that it may be better served by multiple apps, with each using different subsets of the CAIRIS API.  For example, a <em>CAIRIS risk</em> app might focus on the functionality related to asset modelling and risk analysis, while a <em>CAIRIS UX</em> app might help UX designers co-located with security engineers by capturing data and creating models such as personas, use cases, requirements, and scenarios.</p>
+
+<h3> Next steps </h3>
+
+<p>This initial version of the CAIRIS web app currently supports everything needed to manage risks and related artefacts, personas, and several of the visual models.  <a href="https://github.com/failys/cairis/issues/36">We are currently hard at work implementing the functionality that will make the web app functionally equivalent to the desktop app</a>.  We’re also developing a prototype <em>CAIRIS risk</em> app to explore the different forms a risk-centred tool might take.</p>
+
+<h3> We want your feedback </h3>
+
+<p>Although the web app is still in its early stages and unstable in places, we would love to hear about possible features you would like to see.  Please feel free to raise <a href="https://github.com/failys/cairis/issues">issues</a> with your feedback and comments, particularly if you find any problems with the web app.</p>
+
+
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/cairis/bpp/">
+            Participating in CII's Best Practices Program
+            <small>24 Nov 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/cairis/tmdocsmore/">
+            Threat Modelling, Documentation and More
+            <small>20 Oct 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/cairis/trello/">
+            Creating Personas using the Persona Helper, CAIRIS, and Trello
+            <small>13 Mar 2017</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+      <footer role="contentinfo" id="site-footer">
+	<nav role="navigation" class="menu bottom-menu">
+		<ul class="menu-item">
+		
+      
+        
+      
+			<li><a href="http://localhost:4000" ></a></li>
+		
+		</ul>
