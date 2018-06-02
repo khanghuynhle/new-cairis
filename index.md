@@ -13,7 +13,7 @@ discription: Home Page of CAIRIS
 
 <section class="spotlight">
 																													<div class="image">
-<img src="{{ site.url }}/images/persona_arg_tile.gif" class="page-feature-image"></div><div class="content">
+<img src="/new-cairis/images/persona_arg_tile.gif" class="page-feature-image"></div><div class="content">
 <h2> Manage your security, usability, and design artifacts </h2>																												
 <p>Enter or import a wide range of security, usability, and requirements data, and find new insights ranging from interconnections between requirements and risks, to the justification behind persona characteristics.</p>
 </div>
@@ -22,7 +22,7 @@ discription: Home Page of CAIRIS
 
 <section class="spotlight">
 
-<div class="image"><img src="{{ site.url }}/images/kaos_chernoff_tile.gif" alt="" /></div><div class="content">
+<div class="image"><img src="/new-cairis/images/kaos_chernoff_tile.gif" alt="" /></div><div class="content">
 <h2> Visualise your design data </h2>																										<p>Automatically generate security, usability, and requirements visual models that summarise quantitative and qualitative data analysis.</p>
 </div>
 
@@ -30,13 +30,13 @@ discription: Home Page of CAIRIS
 
 <section class="spotlight">
 
-<div class="image"><img src="{{ site.url }}/images/component_risk_tile.gif" alt="" /></div><div class="content">																														<h2>Leverage attack and architectural patterns</h2>																														<p>Leverage open source intelligence about potential attacks and candidate security architectures to derive risks and attack surface metrics.</p>
+<div class="image"><img src="/new-cairis/images/component_risk_tile.gif" alt="" /></div><div class="content">																														<h2>Leverage attack and architectural patterns</h2>																														<p>Leverage open source intelligence about potential attacks and candidate security architectures to derive risks and attack surface metrics.</p>
 </div>
 
 </section>
 
 <section class="spotlight">																													
-<div class="image"><img src="{{ site.url }}/images/volere_tile.gif" alt="" /></div><div class="content">																												<h2>Create professional requirement specifications</h2>																												<p>Generate Volere compliant requirement specifications in different formats, including DocBook, RTF, and PDF.</p>																													</div>																												</section>																										
+<div class="image"><img src="/new-cairis/images/volere_tile.gif" alt="" /></div><div class="content">																												<h2>Create professional requirement specifications</h2>																												<p>Generate Volere compliant requirement specifications in different formats, including DocBook, RTF, and PDF.</p>																													</div>																												</section>																										
 </section>																										
 
 <section id="three" class="wrapper style3 special">
