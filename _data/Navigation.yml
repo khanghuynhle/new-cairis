@@ -4,7 +4,7 @@
   url: /GettingStarted
   excerpt: "How to install and start CAIRIS"
 
-- title: Docs
+- title: Documentation
   url: https://cairis.readthedocs.io
   excerpt: "CAIRIS Documentation"
 
@@ -12,7 +12,7 @@
   url: /examples
   excerpt: "Sample models"
 
-- title: Blogs
+- title: Blog
   url: /blog.html
   excerpt: "Posting about CAIRIS and related topics"
 

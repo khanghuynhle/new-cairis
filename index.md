@@ -3,7 +3,7 @@ layout: landing
 discription: Home Page of CAIRIS
 ---																									
 <section id="banner">
-<div class="inner">																													<h2>CAIRIS</h2>																													<p>An open source platform for building security and usability into your software designs</p>																													<ul class="actions">																		<li><a href="https://github.com/failys/cairis" class="button special">View source</a></li>
+<div class="inner">																													<h2>CAIRIS</h2>																													<p>An open source platform for building security and usability into your software designs</p>																													<ul class="actions">																		<li><a href="https://github.com/failys/cairis" class="button special">GitHub</a></li>
 <li><a href="https://demo.cairis.org/login?next=%2F" class="button special">Live demo</a></li>																		</ul>
 </div>
 <a href="#two" class="more scrolly">Learn More</a>
