@@ -1,7 +1,7 @@
 # Site navigation links
 
 - title: Getting started
-  url: /GettingStarted
+  url: /GettingStarted/
   excerpt: "How to install and start CAIRIS"
 
 - title: Docs
@@ -9,21 +9,21 @@
   excerpt: "CAIRIS Documentation"
 
 - title: Examples
-  url: /examples
+  url: /examples/
   excerpt: "Sample models"
 
 - title: Blogs
-  url: /blog
+  url: /blog/
   excerpt: "Posting about CAIRIS and related topics"
 
 - title: Media
-  url: /media
+  url: /media/
   excerpt: "Videos about CAIRIS and Security-by-Design"
 
 - title: Book
-  url: /book
+  url: /book/
   excerpt: "CAIRIS's book"
 
 - title: Contact Us
-  url: /contact
+  url: /contact/
   excerpt: "Contact us"
