@@ -1,6 +1,6 @@
 ---
 layout: landing
-permalink: /
+discription: Home Page of CAIRIS
 ---																									
 <section id="banner">
 <div class="inner">																													<h2>CAIRIS</h2>																													<p>An open source platform for building security and usability into your software designs</p>																													<ul class="actions">																		<li><a href="https://github.com/failys/cairis" class="button special">View source</a></li>
